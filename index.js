@@ -1,3 +1,5 @@
+'use strict';
+const MB = 1024 * 1024;
 let express = require('express');
 var app = express();
 app.get('/', (req, res) => {
